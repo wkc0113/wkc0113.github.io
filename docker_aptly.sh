@@ -10,7 +10,7 @@ export ASUS_DOCKER_ENV_DOCKERFILE="./Dockerfile"
 export ASUS_DOCKER_ENV_IMAGE="asus-iot/asus_aptly:latest"
 export ASUS_DOCKER_ENV_WORKDIR=${ASUS_DOCKER_ENV_DEFAULT_WORKDIR}
 
-export ASUS_DOCKER_EVN_OPTIONS="--privileged --rm -i --tty --hostname asus-docker-env --volume ${ASUS_DOCKER_ENV_SOURCE}:${ASUS_DOCKER_ENV_WORKDIR} --workdir ${ASUS_DOCKER_ENV_WORKDIR} --volume gpg_key:/home/$(id -u -n)/.gnupg --volume tinker_borad:/home/$(id -u -n)/.aptly"
+export ASUS_DOCKER_EVN_OPTIONS="--privileged --rm -i --tty --hostname asus-docker-env --volume ${ASUS_DOCKER_ENV_SOURCE}:${ASUS_DOCKER_ENV_WORKDIR} --workdir ${ASUS_DOCKER_ENV_WORKDIR} --volume ${ASUS_DOCKER_ENV_SOURCE}/gpg_key:/home/$(id -u -n)/.gnupg --volume ${ASUS_DOCKER_ENV_SOURCE}/tinker_borad:/home/$(id -u -n)/.aptly"
 
 function asus_docker_env_show_variables() {
   echo "====================================================================="
