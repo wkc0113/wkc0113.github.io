@@ -1,0 +1,20 @@
+Package: linux-headers-5.10.198-1.0.26-tinkerboard3n
+Priority: optional
+Section: kernel
+Installed-Size: 46859
+Maintainer: astera <astera@asus.com>
+Architecture: arm64
+Source: linux-5.10.198-1.0.26-tinkerboard3n
+Version: 5.10.198-1.0.26
+Filename: pool/main/l/linux-5.10.198-1.0.26-tinkerboard3n/linux-headers-5.10.198-1.0.26-tinkerboard3n_5.10.198-1.0.26_arm64.deb
+Size: 7636004
+MD5sum: 5f7f02181317a8f3c37e09787a3e915c
+SHA1: 3de146134c13ca674466fb8c3fdefa28db6c928d
+SHA256: 69fae3fe74c08f5473f5890697e2ed1ad595b75853613a8665db5e3ea686d324
+SHA512: 4d73159aa3321f46c09ecb3c5c579b7ce96e011ab711aeabe10441c6703d27ed6eec09bb5067c86fa30d9935902ca6e0350b154d5c01d790cc36143b705adb32
+Description: Linux kernel headers for 5.10.198-1.0.26-tinkerboard3n on arm64
+ This package provides kernel header files for 5.10.198-1.0.26-tinkerboard3n on arm64
+ .
+ This is useful for people who need to build external modules
+Homepage: https://tinker-board.asus.com/
+
