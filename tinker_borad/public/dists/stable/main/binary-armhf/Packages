@@ -17,3 +17,22 @@ Description: Linux kernel, version 5.10.198-0.0.1-tinkerboard
  files, version: 5.10.198-0.0.1-tinkerboard.
 Homepage: https://tinker-board.asus.com/
 
+Package: linux-tinkerboard
+Priority: optional
+Section: kernel
+Installed-Size: 8
+Maintainer: astera <astera_lin@asus.com>
+Architecture: armhf
+Version: 5.10.198-0.0.1
+Depends: linux-image-5.10.198-0.0.1-tinkerboard, linux-headers-5.10.198-0.0.1-tinkerboard
+Filename: pool/main/l/linux-tinkerboard/linux-tinkerboard_5.10.198-0.0.1_armhf.deb
+Size: 1636
+MD5sum: bb19d9b38cb3fb0362194b88198c348e
+SHA1: b157e8b54f5961d45d8f83c64db40f03856d7a2e
+SHA256: 30e8131ed9263b765e2f5203f9d2a66b2dc8411b1442c270a03eb4a8d6b5ed46
+SHA512: b3dd5ec88dd1157a675c6a694ef5eb894619bbf2ded364859b9994078bcfd79aa6fc314aa454c5d1cdb3e3c80b7e061c3e653ca91b0770e21687cd1d30e44d70
+Description: Tinker Board Linux kernel image and headers
+ This package will always depend on the latest tinkerboard kernel image and headers
+ available.
+Homepage: https://tinker-board.asus.com/
+
