@@ -1,0 +1,19 @@
+Package: linux-image-5.10.198-0.0.1-tinkerboard
+Priority: optional
+Section: kernel
+Installed-Size: 35165
+Maintainer: astera <astera@asus.com>
+Architecture: armhf
+Source: linux-5.10.198-0.0.1-tinkerboard
+Version: 5.10.198-0.0.1
+Filename: pool/main/l/linux-5.10.198-0.0.1-tinkerboard/linux-image-5.10.198-0.0.1-tinkerboard_5.10.198-0.0.1_armhf.deb
+Size: 15189816
+MD5sum: 8438925687bdd72f29c8e26e004e06cc
+SHA1: 1c7274d9a6f81efe90b3bdb6a0b0b739091fe972
+SHA256: 6473e7ac871a646b2e7e4def8dd2c0cd83c429b924bdc715112a767b0de9b217
+SHA512: b2212fba49d861ba7f5353726c62dcc45c4b4bcc0b5641156cdd8c1e1098abee5d3f6551a4a505fb0f2349b54f948580f88c43d42b04e5989745f0f0fb9866de
+Description: Linux kernel, version 5.10.198-0.0.1-tinkerboard
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.198-0.0.1-tinkerboard.
+Homepage: https://tinker-board.asus.com/
+
