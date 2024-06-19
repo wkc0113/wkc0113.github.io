@@ -1,3 +1,23 @@
+Package: linux-headers-5.10.198-0.0.1-tinkerboard
+Priority: optional
+Section: kernel
+Installed-Size: 47562
+Maintainer: astera <astera@asus.com>
+Architecture: armhf
+Source: linux-5.10.198-0.0.1-tinkerboard
+Version: 5.10.198-0.0.1
+Filename: pool/main/l/linux-5.10.198-0.0.1-tinkerboard/linux-headers-5.10.198-0.0.1-tinkerboard_5.10.198-0.0.1_armhf.deb
+Size: 7873164
+MD5sum: 5a306ec906fb2bbf8c595a8349938701
+SHA1: 7f090826bfbe2a353fb3f7653a2264bb86bb6911
+SHA256: 0b831a68d4d5836cdf6c970366a6f4689d6f3e8ea15f044ebe03de279d80b6c6
+SHA512: 2442519579c0301869b675010f7fd1c0a84c50abbe47e206d584935fa1b2b106376d1eedac66c85d1909ced868a45e2f783ff74df94820dd277cdde3773d086d
+Description: Linux kernel headers for 5.10.198-0.0.1-tinkerboard on armhf
+ This package provides kernel header files for 5.10.198-0.0.1-tinkerboard on armhf
+ .
+ This is useful for people who need to build external modules
+Homepage: https://tinker-board.asus.com/
+
 Package: linux-image-5.10.198-0.0.1-tinkerboard
 Priority: optional
 Section: kernel
